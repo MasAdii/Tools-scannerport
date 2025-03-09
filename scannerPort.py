@@ -16,9 +16,8 @@ def scan(ipaddress, port):
 	except UnicodeDecodeError:
 		print(colored(f' Port {str(port)} is open', 'green'))
 
-
-target = input('[+]Target : ')
-ports = input('[+]Port : ')
+target = input('[+]Target💀 : ')
+ports = input('[+]Port💀 : ')
 
 if ',' in ports:
 	portlist = ports.split(',')
